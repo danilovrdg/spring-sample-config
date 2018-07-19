@@ -19,7 +19,7 @@ zuul:
     
   routes:
     account:
-      path: /account/**
+      path: /accounts/**
       serviceId: account
       strip-prefix: false
       sensitiveHeaders:
